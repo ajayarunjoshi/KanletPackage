@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Kanlet Configuration</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Kanlet Configurations</value>
+    </caseValues>
+    <layouts>
+        <layout>K Set License Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>KC_Id</nameFieldLabel>
+    <quickActions>
+        <label></label>
+        <name>Create</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>Create_ICP</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Prevent_Edit_Config_After_Creation</name>
+    </validationRules>
+    <webLinks>
+        <label></label>
+        <name>Create_Configuration</name>
+    </webLinks>
+</CustomObjectTranslation>

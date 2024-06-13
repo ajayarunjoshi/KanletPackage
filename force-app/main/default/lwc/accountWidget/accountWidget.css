@@ -1,0 +1,13 @@
+.status-card {
+    padding: 1rem;
+    border-radius: 0.25rem;
+    background-color: #f4f6f9;
+}
+
+.status-card p {
+    margin: 0.5rem 0;
+}
+
+.status-card lightning-icon {
+    margin-bottom: 0.5rem;
+}

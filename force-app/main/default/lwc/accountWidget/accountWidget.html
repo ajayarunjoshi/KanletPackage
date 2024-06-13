@@ -1,0 +1,29 @@
+<template>
+    <lightning-card title="Account Contact Status">
+        <div class="slds-p-around_medium">
+            <div class="slds-grid slds-gutters">
+                <div class="slds-col slds-size_1-of-3">
+                    <div class="status-card slds-box slds-theme_default slds-text-align_center">
+                        <lightning-icon icon-name="utility:check" size="large" alternative-text="Joined"></lightning-icon>
+                        <p class="slds-text-heading_large">{joinedCount}</p>
+                        <p class="slds-box slds-box_x-small" style="background-color:#22be2f;">Joined</p>
+                    </div>
+                </div>
+                <div class="slds-col slds-size_1-of-3">
+                    <div class="status-card slds-box slds-theme_default slds-text-align_center">
+                        <lightning-icon icon-name="utility:close" size="large" alternative-text="Left"></lightning-icon>
+                        <p class="slds-text-heading_large">{leftCount}</p>
+                        <p class="slds-box slds-box_x-small" style="background-color:#fc5050;">Left</p>
+                    </div>
+                </div>
+                <div class="slds-col slds-size_1-of-3">
+                    <div class="status-card slds-box slds-theme_default slds-text-align_center">
+                        <lightning-icon icon-name="utility:arrowup" size="large" alternative-text="Promoted"></lightning-icon>
+                        <p class="slds-text-heading_large">{promotedCount}</p>
+                        <p class="slds-box slds-box_x-small" style="background-color:#10bec4;">Promoted</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </lightning-card>
+</template>
